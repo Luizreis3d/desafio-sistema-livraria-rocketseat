@@ -1,20 +1,20 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Livro {
     private int id;
     private String titulo;
     private Autor autor;
     private boolean disponivel;
-    private Date dataCadastro;
-    private Date dataAtualizacao;
+    private LocalDate dataCadastro;
+    private LocalDate dataAtualizacao;
 
     public Livro(int id, String titulo, Autor autor) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
         this.disponivel = true;
-        this.dataCadastro = new Date();
-        this.dataAtualizacao = new Date();
+        this.dataCadastro = LocalDate.now();
+        this.dataAtualizacao = LocalDate.now();
     }
 
     public int getId() {
@@ -31,7 +31,7 @@ public class Livro {
 
     public void emprestar() {
         this.disponivel = false;
-        this.dataAtualizacao = new Date();
+        this.dataAtualizacao = LocalDate.now();
     }
 
     public String getAutorNome() {
