@@ -33,8 +33,6 @@ Empréstimo de Livros:
 * Ao realizar um empréstimo, o livro é marcado como indisponível e não pode ser emprestado novamente durante a execução do programa.
 
 ## Melhorias Futuras
-O projeto pode ser expandido com funcionalidades adicionais:
-
 **Cadastro de Clientes:**
 * Adicionar uma classe Cliente para gerenciar usuários e associar empréstimos.
 
