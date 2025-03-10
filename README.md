@@ -46,3 +46,6 @@ O projeto pode ser expandido com funcionalidades adicionais:
 
 **Menu Interativo:**
 * Criar um menu para cadastrar livros, listar disponíveis e gerenciar empréstimos.
+
+## 📄 Licença
+Este projeto está licenciado sob a licença MIT.
